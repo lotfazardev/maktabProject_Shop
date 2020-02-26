@@ -67,5 +67,79 @@ body{
     font-size: 48px;
     color: white;
 }
-
-
+/* -------- body --------  */
+.mainBody{
+    width: 100%;
+    height: calc(100% - 70px);
+    display: flex;
+}
+/* right body */
+.rightBody{
+    width: 50%;
+    height: 100%;
+}
+/* left body  */
+.leftBody{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* start  */
+.leftBodyStart{
+    width: 100%;
+    height: 80%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+/* end */
+.leftBodyEnd{
+    width: 100%;
+    height: 20%;
+    background-color: #888;
+}
+.leftBodyBtnForm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+.leftBodyBtns{
+    width: 20%;
+    height: 50%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: large;
+}
+#btnRed:hover{
+    color: white;
+    background-color: red;
+    font-size: large;
+    font-weight: bold;
+}
+#btnBlue:hover{
+    color: white;
+    background-color: blue;
+    font-size: large;
+    font-weight: bold;
+}
+#btnGreen:hover{
+    color: white;
+    background-color: green;
+    font-size: large;
+    font-weight: bold;
+}
+#btnYellow:hover{
+    color: white;
+    background-color: yellow;
+    font-size: large;
+    font-weight: bold;
+}
