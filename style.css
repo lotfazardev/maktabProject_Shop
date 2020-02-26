@@ -77,7 +77,82 @@ body{
 .rightBody{
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
+/* form  */
+.rightForm{
+    width: 90%;
+    height: 90%;
+    background-color: #E8EAF6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.rightFormParts{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+/* tabel */
+.userTabel{
+    width: 100%;
+    height: 50%;
+    border: none;
+    border-collapse: collapse;
+}
+.tableHead{
+    background-color: #3F51B5;
+}
+.tabelData{
+    text-align: center;
+}
+.oddDataLine{
+    background-color: #ccc;
+}
+.oddDataLine:hover{
+    background-color: #5C6BC0;
+    color: blanchedalmond;
+}
+.evenDataLine:hover{
+    background-color: #5C6BC0;
+    color: blanchedalmond;
+}
+/* input box  */
+.inputs{
+    direction: ltr;
+    margin-top: 5%;
+    width: 100%;
+    height: 4%;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+.btnSubmit{
+    margin-top: 5%;
+    width: 100%;
+    height: 20%;
+    font-size: xx-large;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+.btnSubmit:hover{
+    color: white;
+    background-color: #3F51B5;
+    
+}
+
 /* left body  */
 .leftBody{
     width: 50%;
